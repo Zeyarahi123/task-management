@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Management</h1>
+        <label for="action">Select an action:</label>
+        <select id="action" onchange="handleSelection()">
+            <option value="">Please-Select-Tasks</option>
+            <option value="Add-Task">Add-Task</option>
+            <option value="View-Task">View-All-Task</option>
+            <option value="View-Completed-Task">View-Completed-Task</option>
+            <option value="Update-Task">Update-Task</option>
+            <option value="Delete-Task">Delete-Task</option>
+            <option value="Exit">Exit</option>
+        </select>
+
+      
+        <div id="content"></div>
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

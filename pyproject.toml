@@ -1,0 +1,35 @@
+[project]
+name = "task-management"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "zeya",email = "zeyarahi08@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<4.0"
+dependencies = [
+    "fastapi (>=0.115.8,<0.116.0)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+    "tortoise (>=0.1.1,<0.2.0)",
+    "tortoise-orm (==0.19.0)",
+    "pydantic (==1.10)",
+]
+
+[tool.poetry]
+name = "your-package-name"
+version = "0.1.0"
+description = "A short description of your package."
+authors = ["Your Name <your.email@example.com>"]
+
+
+
+
+
+[tool.poetry.scripts]
+task-api-web="task_management.script.web_server:main"
+run-html-gui="task_management.task_templates:index"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
