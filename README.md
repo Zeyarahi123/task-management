@@ -17,8 +17,8 @@ You can install Poetry by following the instructions in the [official documentat
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone <repository_url>
-    cd <repository_name>
+    git clone git@github.com:Zeyarahi123/task-management.git
+    cd task-management
     ```
 
 2. Install **Poetry** (if not already installed):
